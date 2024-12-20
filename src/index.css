@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  color:#2c3e50;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.navbar{
+   background-color: #2c3e50;
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+a.navbar-brand {
+    font-weight: 700;
+    color: white;
+    font-size: 1.5rem;
+}
+a.navbar-brand:hover {
+    color:white;
+}
+a.nav-link{
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+}
+.nav-item a:hover{
+    color: rgb(26,188,156) !important;
+}
+/*startSection*/
+.start{
+    padding-top: 55px;
+    background-color:rgb(26,188,156);
+    text-align: center;
+    height: 700px;
+    color: white;
+}
+.about-img img {
+    padding-top: 145px;
+    width: 15%;
+   
+}
+.about-img h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size:3.5rem;
+    
+}
+.graph{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+/* start portfolio*/
+.port{
+    text-align: center;
+    height: 800px;
+
+}
+.porh{
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size:3rem;
+}
+.por{
+    float: left;
+    width:33.33%;
+    padding: 20px 20px;
+    height: auto;
+   
+}
+.por img{
+    width:100%;
+    height: auto;
+    border-radius:3%;
+}
+/*About*/
+.about-sec{
+    background-color: rgb(26,188,156);
+    margin-top: 60px;
+    padding: 80px;
+    text-align: center;
+    
+}
+.about h2{
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.desc p{
+    text-align: left;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+.btn{
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 1.25rem;
+  }
+  /*contact*/
+  .contact{
+    margin-top: 70px;
+  }
+  .contact h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .contact .form-control{
+    border: none;
+    border-bottom:0.125rem solid #ced4da;
+  }
+  .contact label{
+    color: #6c757d;
+    font-size: 1.5rem;
+    
+  }
+  .btn{
+    background-color: #1abc9c;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 20px;
+  }
+  /*start location*/
+  .loc{
+    background-color:#2c3e50;
+    height: 250px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .loca{
+    float: left;
+    width:33.33%;
+    padding: 20px 20px;
+    color: white;
+  }
+  .loca-list{
+    list-style: none;
+  }
+  .loca-li{
+  float: left;
+  margin-top: 15px;
+  margin-left: 35px;
+  border:.11rem solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: center;
+  }
+  .loca-li a{
+    color: white;
+  }
+  .loca p{
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .loca h4{
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .loca p a{
+    color: #1abc9c;
+  }
