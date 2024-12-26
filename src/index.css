@@ -25,12 +25,12 @@ a.navbar-brand {
 a.navbar-brand:hover {
     color:white;
 }
-a.nav-link{
+.nav-item .nav-link{
     font-weight: 700;
     color: white;
     font-size: 1rem;
 }
-.nav-item a:hover{
+.nav-item .nav-link:hover{
     color: rgb(26,188,156) !important;
 }
 /*startSection*/
